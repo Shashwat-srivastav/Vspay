@@ -38,6 +38,9 @@ dependencies:
   get: ^4.6.6
   pin_input_biometric_authenticator: ^0.0.4
   pin_input_text_field: ^4.5.1
+  onscreen_num_keyboard: ^1.0.4
+  swipeable_button_view: ^0.0.2
+  page_transition: ^2.1.0
 
 dev_dependencies:
   flutter_test:

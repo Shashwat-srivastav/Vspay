@@ -86,13 +86,17 @@ class SignUp extends StatelessWidget {
               Row(
                  children: [
                   Flexible(child: Padding(
-                    padding: const EdgeInsets.all(8.0),
+                    padding: EdgeInsets.all(8.0),
                     child: Column(
                       children: [
-                         Text(
-                            "Full Name",
-                            style: TextStyle(fontSize: 16),
-                          ),
+                         Padding(
+                           padding:  EdgeInsets.fromLTRB(0, 0,
+                                MediaQuery.of(context).size.width * 0.24, 0),
+                           child: Text(
+                              "Full Name",
+                              style: TextStyle(fontSize: 16),
+                            ),
+                         ),
                         TextField(
                             // maxLength: 20,
                             decoration: InputDecoration(
@@ -115,10 +119,14 @@ class SignUp extends StatelessWidget {
                         padding: const EdgeInsets.all(8.0),
                         child: Column(
                           children: [
-                            Text(
-                            "User Name",
-                            style: TextStyle(fontSize: 16),
-                          ),
+                            Padding(
+                              padding: EdgeInsets.fromLTRB(0, 0,
+                                MediaQuery.of(context).size.width * 0.24, 0),
+                              child: Text(
+                              "User Name",
+                              style: TextStyle(fontSize: 16),
+                                                        ),
+                            ),
                             TextField(
                               // maxLength: 20,
                             decoration: InputDecoration(

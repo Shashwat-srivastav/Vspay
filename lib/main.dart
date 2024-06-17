@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:vspay/screens/personaldet.dart';
+import 'package:vspay/screens/profile.dart';
 import 'package:vspay/screens/signin.dart';
 import 'package:vspay/screens/signup.dart';
+import 'screens/dash.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +23,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home:  SignUp(),
+      home:  SignIn(),
     );
   }
 }
